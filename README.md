@@ -10,3 +10,5 @@ remark_plain_server.py : 주석 추가
 
 json_server.py : json 값을 리턴하는 웹 서버
 remark_server.py : 주석 추가
+# wsgi 설치
+sudo apt-get install libapache2-mod-wsgi
