@@ -4,3 +4,9 @@
 {"count": 4, "length": 26}
 # send parameter test
 curl -d 'sentence=This is a sample sentence.&character=s' http://localhost:8051
+# 파일 설명
+plain_server.py : 파이썬 웹 서버 기본 형식
+remark_plain_server.py : 주석 추가
+
+json_server.py : json 값을 리턴하는 웹 서버
+remark_server.py : 주석 추가
