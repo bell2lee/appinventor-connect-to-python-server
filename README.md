@@ -13,6 +13,9 @@ remark_server.py : 주석 추가
 
 count.py : wsgi 용 json_server.py
 count.conf : /etc/apache2/conf-enabled 에 추가
+
+appinventor_client.aia : 앱 인벤터 프로젝트 파일 임폴트 해서 url 등을 수정 해야함.
+
 # wsgi 설치
 sudo apt-get install libapache2-mod-wsgi
 
