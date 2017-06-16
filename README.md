@@ -3,6 +3,12 @@
 # response value example
 {"count": 4, "length": 26}
 # send parameter test
+Method : POST/HTTP
+
+URL : http://ip/설정한주소
+
+sentence=문장&character=문장중샐캐릭터
+
 curl -d 'sentence=This is a sample sentence.&character=s' http://localhost:8051
 # 파일 설명
 plain_server.py : 파이썬 웹 서버 기본 형식
